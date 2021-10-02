@@ -29,3 +29,12 @@ MVVM offers some advantages over  _Model-View-Controller_, or  _MVC_, which is t
  3. Format data
  4. Add functionality
  5. Unit testing 
+
+## Getting started
+The app fetches the latest weather information from weatherbit.io and presents a summary of the current weather.
+
+To use the Weatherbit API, you need to register for a free API key. The app won’t work until you add your own Weatherbit API key. Go to  [https://www.weatherbit.io/account/create](https://www.weatherbit.io/account/create)  to register for your key.
+
+After you get your API key, return to Xcode.
+
+Under  _Services_, open  _WeatherbitService.swift_. Then replace the value for  _apiKey_  with your new key.
